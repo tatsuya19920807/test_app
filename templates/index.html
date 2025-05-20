@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>初めてのウェブサイト制作</title>
+    <link rel="stylesheet" href="../static//styles.css">
+</head>
+<body>
+    <main>
+    <header class="header">
+        <h1>Fishing Site</h1>
+    </header>
+        <section>
+            <h2>本日の釣果</h2>
+            <div>
+                <img src="./img/img1.jpeg" alt="fish.img1">
+                <img src="./img/img2.jpeg" alt="fish.img2">
+            </div>
+        </section>
+        <section>
+            <h2>タックルデータ</h2>
+            <p>rod:ダイワ シーバスハンターX</p>
+            <p>rod:ダイワ カルディア</p>
+        </section>
+        <section>
+            <h2>サイトリンク</h2>
+            <a href="https://www.daiwa.com/jp" target="_blank">ダイワ</a>
+            <a href="https://fish.shimano.com/ja-JP" target="_blank">シマノ</a>
+        </section>
+        <section>
+            <h2>情報入力</h2>
+            <p>共有する情報を入力してください</p>
+            <fieldset>
+              <label for="name">名前を入力してください<input minlength="10" required id="name"></label>
+              <label for="field">釣り場を入力してください<input required id="field"></label>
+            </fieldset>
+            <fieldset>
+              <label><input name="fish-name" type="radio" checked>ぶり</label>
+              <label><input name="fish-name" type="radio" checked>さわら</label>
+            </fieldset>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,36 @@
+body {
+    background-image : url("img3.jpg");
+    background-size: cover;
+}
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+    background-color: green;
+    padding : 16px ;
+    border-bottom: 4px solid orange;
+    margin : 16px ;
+}
+
+img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100% ;
+    max-width: 350px;
+    height: 300px;
+}
+
+section {
+    border-bottom: 4px solid black;
+
+}
+
+h2 {
+    color : pink ;
+}
+
+p, a {
+    color : yellowgreen ;
+}
